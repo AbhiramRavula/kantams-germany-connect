@@ -9,7 +9,6 @@ const Navigation = () => {
 
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'About Us', href: '/about' },
     { name: 'Germany', href: '/germany-jobs' },
     { name: 'Nursing & Ausbildung', href: '/nursing-ausbildung' },
     { name: 'Types of VISAs', href: '/visas' },

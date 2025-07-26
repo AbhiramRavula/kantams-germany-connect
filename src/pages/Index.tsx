@@ -207,6 +207,58 @@ const Index = () => {
         </div>
       </section>
 
+      {/* About Us Section */}
+      <section className="py-20 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <Badge variant="secondary" className="mb-4">About Kantams</Badge>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Your Trusted Partner for German Migration
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              With over 15 years of experience, Kantams has been the bridge connecting skilled professionals 
+              with their dream careers in Germany.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 mb-20">
+            <Card className="border-primary/20">
+              <CardHeader className="text-center">
+                <div className="flex justify-center mb-4">
+                  <div className="bg-primary p-3 rounded-full">
+                    <CheckCircle className="h-8 w-8 text-white" />
+                  </div>
+                </div>
+                <CardTitle className="text-2xl text-primary">Our Mission</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-lg text-center text-muted-foreground leading-relaxed">
+                  Connect skilled medical professionals worldwide with top healthcare opportunities in Germany, 
+                  offering end-to-end relocation support with integrity, expertise, and personalized care.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-secondary/20">
+              <CardHeader className="text-center">
+                <div className="flex justify-center mb-4">
+                  <div className="bg-secondary p-3 rounded-full">
+                    <Heart className="h-8 w-8 text-white" />
+                  </div>
+                </div>
+                <CardTitle className="text-2xl text-secondary">Our Vision</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-lg text-center text-muted-foreground leading-relaxed">
+                  Build meaningful partnerships between dedicated professionals and leading German healthcare 
+                  institutions, creating a seamless pathway for global talent to thrive in Germany.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section 
         className="py-20 bg-cover bg-center relative"
