@@ -47,15 +47,10 @@ const Navigation = () => {
             ))}
           </div>
 
-          {/* CTA Buttons */}
-          <div className="hidden lg:flex items-center space-x-4">
-            <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-              <Phone className="h-4 w-4" />
-              <span>+91 9876543210</span>
-            </div>
-            <Button variant="cta" size="sm">
-              Book Consultation
-            </Button>
+          {/* Contact Info */}
+          <div className="hidden lg:flex items-center space-x-2 text-sm text-muted-foreground">
+            <Phone className="h-4 w-4" />
+            <span>+91 9876543210</span>
           </div>
 
           {/* Mobile menu button */}
@@ -97,9 +92,6 @@ const Navigation = () => {
                   <Mail className="h-4 w-4" />
                   <span>info@kantams.com</span>
                 </div>
-                <Button variant="cta" size="sm" className="mx-3">
-                  Book Consultation
-                </Button>
               </div>
             </div>
           </div>

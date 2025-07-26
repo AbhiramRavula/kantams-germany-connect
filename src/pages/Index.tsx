@@ -102,9 +102,6 @@ const Index = () => {
                     Check Eligibility Now
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
-                  <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-primary">
-                    Book Consultation
-                  </Button>
                 </div>
               </div>
             </div>
