@@ -9,9 +9,7 @@ import GermanyJobs from "./pages/GermanyJobs";
 import NursingAusbildung from "./pages/NursingAusbildung";
 import Visas from "./pages/Visas";
 import Blog from "./pages/Blog";
-import Feedback from "./pages/Feedback";
 import Contact from "./pages/Contact";
-import FAQ from "./pages/FAQ";
 import Privacy from "./pages/Privacy";
 import NotFound from "./pages/NotFound";
 
@@ -30,9 +28,7 @@ const App = () => (
           <Route path="/nursing-ausbildung" element={<NursingAusbildung />} />
           <Route path="/visas" element={<Visas />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/feedback" element={<Feedback />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/faq" element={<FAQ />} />
           <Route path="/privacy" element={<Privacy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

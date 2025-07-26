@@ -13,8 +13,15 @@ import {
   Users,
   Briefcase,
   GraduationCap,
-  FileCheck
+  FileCheck,
+  HelpCircle
 } from 'lucide-react';
+import { 
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion';
 
 const GermanyJobs = () => {
   const sectors = [
@@ -111,10 +118,10 @@ const GermanyJobs = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <Badge variant="secondary" className="mb-4 bg-white/20 text-white border-white/30">
-              Germany Job Market
+              Germany Opportunities
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Endless Opportunities in Germany
+              Your Future in Germany
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
               Discover high-demand sectors, competitive salaries, and your pathway to a successful career in Europe's largest economy.
@@ -275,47 +282,47 @@ const GermanyJobs = () => {
         </div>
       </section>
 
-      {/* Entry Requirements */}
-      <section className="py-20 bg-primary text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* FAQ Section */}
+      <section className="py-20 bg-muted/30">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <Badge variant="secondary" className="mb-4">Frequently Asked Questions</Badge>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              General Entry Requirements
+              Germany Migration FAQ
             </h2>
-            <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Basic requirements for skilled worker migration to Germany
-            </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="bg-white/20 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <GraduationCap className="h-8 w-8" />
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Education</h3>
-              <p className="text-white/80 text-sm">Recognized degree or vocational qualification</p>
-            </div>
-            <div className="text-center">
-              <div className="bg-white/20 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <Users className="h-8 w-8" />
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Language</h3>
-              <p className="text-white/80 text-sm">German B1-B2 (varies by profession)</p>
-            </div>
-            <div className="text-center">
-              <div className="bg-white/20 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <Briefcase className="h-8 w-8" />
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Experience</h3>
-              <p className="text-white/80 text-sm">Relevant work experience (2+ years preferred)</p>
-            </div>
-            <div className="text-center">
-              <div className="bg-white/20 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <FileCheck className="h-8 w-8" />
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Documents</h3>
-              <p className="text-white/80 text-sm">Complete documentation and clean background</p>
-            </div>
+          <div className="space-y-8">
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-xl flex items-center">
+                  <HelpCircle className="h-6 w-6 mr-2 text-primary" />
+                  General Requirements
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <Accordion type="single" collapsible className="w-full">
+                  <AccordionItem value="education">
+                    <AccordionTrigger>What education is required for Germany?</AccordionTrigger>
+                    <AccordionContent>
+                      You need a recognized degree or vocational qualification. We help with credential recognition and equivalence processes.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="language">
+                    <AccordionTrigger>What German language level is required?</AccordionTrigger>
+                    <AccordionContent>
+                      Most professions require B1-B2 German. Healthcare positions typically need B2. We provide specialized language training.
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="salary">
+                    <AccordionTrigger>What salaries can I expect in Germany?</AccordionTrigger>
+                    <AccordionContent>
+                      Salaries vary by profession and experience. Entry-level positions start from €2,500-€3,500, with experienced professionals earning €4,000-€8,000+ monthly.
+                    </AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>

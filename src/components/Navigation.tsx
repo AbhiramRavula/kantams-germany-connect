@@ -10,13 +10,11 @@ const Navigation = () => {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about' },
-    { name: 'Germany Jobs', href: '/germany-jobs' },
+    { name: 'Germany', href: '/germany-jobs' },
     { name: 'Nursing & Ausbildung', href: '/nursing-ausbildung' },
     { name: 'Types of VISAs', href: '/visas' },
     { name: 'Blog', href: '/blog' },
-    { name: 'Feedback', href: '/feedback' },
     { name: 'Contact', href: '/contact' },
-    { name: 'FAQ', href: '/faq' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
