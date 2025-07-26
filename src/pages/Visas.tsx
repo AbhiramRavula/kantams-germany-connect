@@ -32,7 +32,7 @@ const Visas = () => {
       validity: '4 years (renewable)',
       familyAllowed: true,
       pathToPR: '2-4 years',
-      color: 'bg-blue-500'
+      color: 'bg-primary'
     },
     {
       icon: GraduationCap,
@@ -49,7 +49,7 @@ const Visas = () => {
       validity: '3 years (training duration)',
       familyAllowed: true,
       pathToPR: '2 years after training',
-      color: 'bg-green-500'
+      color: 'bg-secondary'
     },
     {
       icon: Heart,
@@ -66,7 +66,7 @@ const Visas = () => {
       validity: '4 years (renewable)',
       familyAllowed: true,
       pathToPR: '2 years',
-      color: 'bg-red-500'
+      color: 'bg-destructive'
     },
     {
       icon: Star,
@@ -83,7 +83,7 @@ const Visas = () => {
       validity: '1 year (job search)',
       familyAllowed: false,
       pathToPR: 'After finding employment',
-      color: 'bg-yellow-500'
+      color: 'bg-gradient-to-r from-primary to-secondary'
     },
     {
       icon: Users,
@@ -100,7 +100,7 @@ const Visas = () => {
       validity: 'Same as sponsor\'s permit',
       familyAllowed: true,
       pathToPR: 'Same timeline as sponsor',
-      color: 'bg-purple-500'
+      color: 'bg-secondary'
     },
     {
       icon: Building,
@@ -117,7 +117,7 @@ const Visas = () => {
       validity: '3 years (renewable)',
       familyAllowed: true,
       pathToPR: '3 years',
-      color: 'bg-orange-500'
+      color: 'bg-primary'
     }
   ];
 
@@ -252,7 +252,7 @@ const Visas = () => {
           <Card className="max-w-4xl mx-auto">
             <CardHeader>
               <CardTitle className="text-center flex items-center justify-center">
-                <Star className="h-6 w-6 mr-2 text-yellow-500" />
+                <Star className="h-6 w-6 mr-2 text-primary" />
                 Points Calculation System
               </CardTitle>
               <CardDescription className="text-center">
@@ -268,8 +268,8 @@ const Visas = () => {
                   </div>
                 ))}
               </div>
-              <div className="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
-                <p className="text-sm text-yellow-800">
+              <div className="mt-6 p-4 bg-primary/10 border border-primary/20 rounded-lg">
+                <p className="text-sm text-primary">
                   <strong>Note:</strong> You need a minimum of 6 points to qualify. 
                   Additional points available for specialized skills and German language proficiency.
                 </p>
@@ -315,7 +315,7 @@ const Visas = () => {
                 ))}
               </div>
               <div className="mt-8 p-4 bg-primary/10 rounded-lg">
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-primary">
                   <strong>Important:</strong> All foreign documents must be translated into German by certified translators 
                   and may require apostille/legalization depending on your country of origin.
                 </p>
@@ -344,7 +344,7 @@ const Visas = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">Fast Track</h3>
               <p className="text-white/80 text-sm mb-2">Healthcare professionals with recognized qualifications</p>
-              <div className="text-2xl font-bold text-yellow-300">2-3 months</div>
+              <div className="text-2xl font-bold text-white">2-3 months</div>
             </div>
             <div className="text-center">
               <div className="bg-white/20 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
@@ -352,7 +352,7 @@ const Visas = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">Standard</h3>
               <p className="text-white/80 text-sm mb-2">Skilled workers with job offers</p>
-              <div className="text-2xl font-bold text-yellow-300">3-4 months</div>
+              <div className="text-2xl font-bold text-white">3-4 months</div>
             </div>
             <div className="text-center">
               <div className="bg-white/20 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
@@ -360,7 +360,7 @@ const Visas = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">Complex Cases</h3>
               <p className="text-white/80 text-sm mb-2">Self-employment or qualification recognition needed</p>
-              <div className="text-2xl font-bold text-yellow-300">4-6 months</div>
+              <div className="text-2xl font-bold text-white">4-6 months</div>
             </div>
           </div>
 

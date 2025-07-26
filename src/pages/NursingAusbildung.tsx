@@ -317,7 +317,7 @@ const NursingAusbildung = () => {
               <Card key={index} className="bg-white/10 border-white/20 text-white">
                 <CardHeader className="text-center">
                   <CardTitle className="text-lg">{level.level}</CardTitle>
-                  <div className="text-2xl font-bold text-yellow-300">{level.amount}</div>
+                  <div className="text-2xl font-bold text-white">{level.amount}</div>
                 </CardHeader>
                 <CardContent className="text-center">
                   <p className="text-sm text-white/80">{level.benefits}</p>

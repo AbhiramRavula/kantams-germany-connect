@@ -20,7 +20,7 @@ const buttonVariants = cva(
           "bg-success text-success-foreground shadow-md hover:bg-success/90 hover:shadow-lg transform hover:-translate-y-0.5",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        cta: "bg-gradient-to-r from-primary to-secondary text-white font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-105",
+        cta: "bg-gradient-to-r from-primary to-secondary text-white font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
