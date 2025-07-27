@@ -15,7 +15,7 @@ import {
   Star
 } from 'lucide-react';
 import Layout from '@/components/Layout';
-import heroHealthcare from '@/assets/hero-healthcare.jpg';
+import heroIndiaGermany from '@/assets/hero-india-germany-migration.jpg';
 import successStory from '@/assets/success-story.jpg';
 import germanyOpportunity from '@/assets/germany-opportunity.jpg';
 
@@ -85,7 +85,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-black/30"></div>
         <div 
           className="relative bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${heroHealthcare})` }}
+          style={{ backgroundImage: `url(${heroIndiaGermany})` }}
         >
           <div className="bg-gradient-to-r from-primary/90 to-secondary/90">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
