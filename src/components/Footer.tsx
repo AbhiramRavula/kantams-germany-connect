@@ -38,18 +38,23 @@ const Footer = () => {
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/about" className="text-primary-foreground/80 hover:text-white transition-colors">
-                  About Us
+                <Link to="/" className="text-primary-foreground/80 hover:text-white transition-colors">
+                  Home
                 </Link>
               </li>
               <li>
                 <Link to="/germany-jobs" className="text-primary-foreground/80 hover:text-white transition-colors">
-                  Germany Jobs
+                  Skilled VISAs
+                </Link>
+              </li>
+              <li>
+                <Link to="/nursing-jobs" className="text-primary-foreground/80 hover:text-white transition-colors">
+                  Nursing Jobs
                 </Link>
               </li>
               <li>
                 <Link to="/nursing-ausbildung" className="text-primary-foreground/80 hover:text-white transition-colors">
-                  Nursing & Ausbildung
+                  Nursing Ausbildung
                 </Link>
               </li>
               <li>
@@ -63,8 +68,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/faq" className="text-primary-foreground/80 hover:text-white transition-colors">
-                  FAQ
+                <Link to="/contact" className="text-primary-foreground/80 hover:text-white transition-colors">
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -74,12 +79,36 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Services</h3>
             <ul className="space-y-2 text-sm">
-              <li className="text-primary-foreground/80">Skilled Worker VISA</li>
-              <li className="text-primary-foreground/80">Nursing Migration</li>
-              <li className="text-primary-foreground/80">Ausbildung Programs</li>
-              <li className="text-primary-foreground/80">Job Placement</li>
-              <li className="text-primary-foreground/80">Language Training</li>
-              <li className="text-primary-foreground/80">Document Processing</li>
+              <li>
+                <Link to="/germany-jobs" className="text-primary-foreground/80 hover:text-white transition-colors">
+                  Skilled Worker VISA
+                </Link>
+              </li>
+              <li>
+                <Link to="/nursing-jobs" className="text-primary-foreground/80 hover:text-white transition-colors">
+                  Nursing Migration
+                </Link>
+              </li>
+              <li>
+                <Link to="/nursing-ausbildung" className="text-primary-foreground/80 hover:text-white transition-colors">
+                  Ausbildung Programs
+                </Link>
+              </li>
+              <li>
+                <Link to="/visas" className="text-primary-foreground/80 hover:text-white transition-colors">
+                  Job Placement
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="text-primary-foreground/80 hover:text-white transition-colors">
+                  Language Training
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="text-primary-foreground/80 hover:text-white transition-colors">
+                  Document Processing
+                </Link>
+              </li>
             </ul>
           </div>
 

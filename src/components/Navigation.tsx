@@ -9,8 +9,9 @@ const Navigation = () => {
 
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Germany', href: '/germany-jobs' },
-    { name: 'Nursing & Ausbildung', href: '/nursing-ausbildung' },
+    { name: 'Skilled VISAs', href: '/germany-jobs' },
+    { name: 'Nursing Jobs', href: '/nursing-jobs' },
+    { name: 'Nursing Ausbildung', href: '/nursing-ausbildung' },
     { name: 'Types of VISAs', href: '/visas' },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
